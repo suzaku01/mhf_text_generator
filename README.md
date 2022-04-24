@@ -6,7 +6,7 @@ Message will be displayed before player entering Land/Room selection screen.
 GO release section and download latest version.
 
 # Setup
-Replace your `server\signserver\dsgn_resp.go` with new `dsgn_resp.go` in downloaeded file.  
+Replace your `server\signserver\dsgn_resp.go` with new `mhf_text_generator\server\signserver\dsgn_resp.go` in downloaeded file.  
 Be sure not to create a backup file inside of server folder otherwise it won't launch.
 
 # Usage
