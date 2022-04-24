@@ -14,6 +14,9 @@ Run `mhf_text_generator.exe` and edit texts as you wish.
 Press `Generate`and you'll get string of bytes.
 Copy and paste it to `dsgn_resp.go`, line 90.
 
+# Known issue
+Sometimes it doesn't change color and text size.
+
 # Images
 ## In editor
 ![image](https://user-images.githubusercontent.com/89909040/164960406-2c641c49-9208-4274-9faa-35d347ae8870.png)
@@ -21,3 +24,6 @@ Copy and paste it to `dsgn_resp.go`, line 90.
 ## In game
 ![image](https://user-images.githubusercontent.com/89909040/164960428-1c162fa4-d37f-4015-b995-b22b2c023cb3.png)
 
+# Changelog
+## 1.0
+Initial release.
