@@ -1,0 +1,1 @@
+mhf_text_generator
