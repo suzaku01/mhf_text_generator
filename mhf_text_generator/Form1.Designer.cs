@@ -50,18 +50,18 @@
             // richTextBoxInput
             // 
             this.richTextBoxInput.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(12)))), ((int)(((byte)(12)))));
-            this.richTextBoxInput.Font = new System.Drawing.Font("Yu Gothic UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.richTextBoxInput.Font = new System.Drawing.Font("Yu Gothic UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.richTextBoxInput.ForeColor = System.Drawing.Color.White;
             this.richTextBoxInput.Location = new System.Drawing.Point(6, 71);
             this.richTextBoxInput.Name = "richTextBoxInput";
-            this.richTextBoxInput.Size = new System.Drawing.Size(407, 372);
+            this.richTextBoxInput.Size = new System.Drawing.Size(326, 372);
             this.richTextBoxInput.TabIndex = 0;
             this.richTextBoxInput.Text = "";
             this.richTextBoxInput.WordWrap = false;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(486, 209);
+            this.button1.Location = new System.Drawing.Point(394, 209);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 2;
@@ -81,7 +81,7 @@
             "Aqua",
             "Purple",
             "White"});
-            this.comColor.Location = new System.Drawing.Point(309, 22);
+            this.comColor.Location = new System.Drawing.Point(152, 45);
             this.comColor.Name = "comColor";
             this.comColor.Size = new System.Drawing.Size(90, 23);
             this.comColor.TabIndex = 3;
@@ -89,10 +89,10 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(6, 71);
+            this.richTextBox1.Location = new System.Drawing.Point(6, 69);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(407, 372);
+            this.richTextBox1.Size = new System.Drawing.Size(326, 372);
             this.richTextBox1.TabIndex = 6;
             this.richTextBox1.Text = "";
             // 
@@ -109,7 +109,7 @@
             "6",
             "7",
             "8"});
-            this.comSize.Location = new System.Drawing.Point(147, 22);
+            this.comSize.Location = new System.Drawing.Point(152, 16);
             this.comSize.Name = "comSize";
             this.comSize.Size = new System.Drawing.Size(90, 23);
             this.comSize.TabIndex = 9;
@@ -130,9 +130,9 @@
             // 
             this.groupBox1.Controls.Add(this.checkBox2);
             this.groupBox1.Controls.Add(this.richTextBox1);
-            this.groupBox1.Location = new System.Drawing.Point(594, 12);
+            this.groupBox1.Location = new System.Drawing.Point(497, 14);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(426, 454);
+            this.groupBox1.Size = new System.Drawing.Size(350, 454);
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Output";
@@ -158,7 +158,7 @@
             this.groupBox2.Controls.Add(this.checkBox1);
             this.groupBox2.Location = new System.Drawing.Point(12, 12);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(421, 454);
+            this.groupBox2.Size = new System.Drawing.Size(353, 454);
             this.groupBox2.TabIndex = 12;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Input";
@@ -177,7 +177,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(268, 25);
+            this.label2.Location = new System.Drawing.Point(111, 48);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 15);
             this.label2.TabIndex = 12;
@@ -186,7 +186,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(114, 25);
+            this.label1.Location = new System.Drawing.Point(119, 19);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(27, 15);
             this.label1.TabIndex = 11;
@@ -194,7 +194,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(486, 278);
+            this.button2.Location = new System.Drawing.Point(394, 278);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 13;
@@ -211,7 +211,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1032, 480);
+            this.ClientSize = new System.Drawing.Size(862, 480);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);

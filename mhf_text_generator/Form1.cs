@@ -20,6 +20,7 @@ namespace mhf_text_generator
             Color prevcolor = Color.White;
             float prevsize = 0f;
             HorizontalAlignment prevpos = HorizontalAlignment.Left;
+            bool nb = false;
 
             bool needtoaddbyte = true;
 
@@ -41,6 +42,7 @@ namespace mhf_text_generator
                 {
                     //new line  
                     listdata.AddRange(new byte[] { 60, 66, 82, 62 });   //br
+                    nb = false;
                     richTextBoxInput.Select(i + 1, 1);
                     if (richTextBoxInput.SelectedText == "\n")
                     {
@@ -49,18 +51,25 @@ namespace mhf_text_generator
                     else
                     {
                         listdata.AddRange(new byte[] { 60, 66, 79, 68, 89, 62 });       //body
+                        nb = true;
+
                     }
                     richTextBoxInput.Select(i, 1);
                 }
                 else
                 {
                     needtoaddbyte = true;
+                    nb = false;
 
                 }
 
                 if (textsize == prevsize)
                 {
-
+                    if (nb)
+                    {
+                        listdata.AddRange(GetSize(textsize));
+                        prevsize = textsize;
+                    }
                 }
                 else
                 {
@@ -70,7 +79,11 @@ namespace mhf_text_generator
 
                 if (col == prevcolor)
                 {
-
+                    if (nb)
+                    {
+                        listdata.AddRange(GetColor(col));
+                        prevcolor = col;
+                    }
                 }
                 else
                 {
@@ -206,7 +219,7 @@ namespace mhf_text_generator
                     colr = "5";
                     break;
                 case "White":
-                    colr = "6";
+                    colr = "7s";
                     break;
             }
             name = "<C_" + colr + ">";
@@ -258,7 +271,7 @@ namespace mhf_text_generator
         {
             float size = CalcSize(comSize.SelectedIndex);
 
-            Font char_font = new Font(richTextBoxInput.Font.FontFamily, size, FontStyle.Bold);
+            Font char_font = new Font(richTextBoxInput.Font.FontFamily, size, FontStyle.Regular);
             richTextBoxInput.SelectionFont = char_font;
 
         }
