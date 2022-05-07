@@ -1,6 +1,7 @@
 # Description
 This is a simple form that generates texts to be sent to all clietns.  
-Message will be displayed before player entering Land/Room selection screen.
+Message will be displayed before player entering Land/Room selection screen.  
+
 
 # Download
 GO release section and download latest version.
@@ -15,7 +16,8 @@ Press `Generate`and you'll get string of bytes.
 Copy and paste it to `dsgn_resp.go`, line 90.
 
 # Known issue
-Sometimes it doesn't change color and text size.
+- Sometimes it doesn't change color and text size.
+- Doesn't support Japanese(currently).
 
 # Images
 ## In editor
